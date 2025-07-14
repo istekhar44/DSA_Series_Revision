@@ -1,4 +1,4 @@
-//Oerator in the cpp
+/*//Oerator in the cpp
 // &   (and) operator.   simple treat as a multipley operator 
 // |   (OR) operatir.   Simple treate as a addition operator 
 // ~   (NOT) oprator .  NOt operator It generally reverse the bit . 0 to 1
@@ -31,6 +31,8 @@ int main(){
         cout<<i<<endl;
     }
 
+
+
     //Print the sum to n number ?
     int number;
     cout <<"Writer the Number to print the Sum"<<endl;
@@ -42,19 +44,49 @@ int main(){
     }
     cout<<sum<<endl;
 
-    //
 
 
+    //Fabonacci series
+    int numbera= 10;
+    int g = 0 ;
+    int h = 1 ;
+    for(int i = 1 ; i<=numbera; i++){
+        int nextnum = g + h;
+        cout<<nextnum<<" ";
+        g = h;
+        h = nextnum;
 
 
-
-    
-
-
-
-    
-    
+    }
+    cout<<endl;
 
 return 0;
-}
+}*/
 
+
+#include<iostream>
+using namespace std;
+int main(){
+    //Write the Programe to Print the prime no
+    int no;
+    cout<<"Enter the value of the no "<<endl;
+    cin>>no;
+    bool isPrime= 1;
+    for(int i = 2 ; i<no ; i++){
+        if(no%i==0){
+            isPrime = 0;
+            cout<<"This is not a prime No "<<endl;
+            break;
+        
+        }  
+
+    }
+    if (isPrime==0) {
+            cout<<"This is Not Prime"<<endl;
+        }
+        else{
+            cout<<"This is  Prime";
+        }
+      
+return 0;
+}
