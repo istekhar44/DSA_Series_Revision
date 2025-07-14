@@ -64,7 +64,7 @@ return 0;
 }*/
 
 
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     //Write the Programe to Print the prime no
@@ -89,4 +89,24 @@ int main(){
         }
       
 return 0;
+}*/
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int prod = 1;
+    int sum = 0 ;               // 456 % 10 = 6   modulus to find the remender
+    while(n!=0){                // 456 / 10 = 45   division to find the digit
+        int remender = n%10;
+        prod = prod * remender;
+        sum = sum + remender ;
+        n = n/10;
+
+    }
+    int ans = prod - sum;
+    return ans;
+
 }
