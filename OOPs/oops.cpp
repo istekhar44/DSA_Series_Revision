@@ -54,6 +54,12 @@ int main() {
 
 
 
+
+
+
+
+
+
 /*#include<iostream>
 #include<string>
 using namespace std;
@@ -95,9 +101,29 @@ return 0;
 #include <iostream>
 using namespace std;
 class Car{
-    
+    public :
+    string Brand;
+    int plateNo;
+    int EnrollYear;
+
+    //create the Default constructor 
+    Car(){
+        cout<<"Fortuner"<<endl;
+
+    }
+    //Crate the paramerterised constructor 
+    Car(string newName , int  newPlateNo, int newEnrollYear){
+        Brand = newName ;
+        plateNo = newPlateNo;
+
+    }
+
 
 };
 int main(){
+    Car Carinfo;
+    
+
+    cout<<Carinfo.Brand<<endl;
 
 }
