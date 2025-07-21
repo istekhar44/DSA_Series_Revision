@@ -1,4 +1,5 @@
-/*#include <iostream>
+//Use the multiple if else condition operation int he cpp
+#include <iostream>
 using namespace std;
 int main(){
     int a = 34;
@@ -18,13 +19,13 @@ int main(){
 
     return 0;
 
-}*/
+}
 
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     //Print the counting
@@ -37,14 +38,14 @@ int main(){
     }
 
 return 0;
-}*/
+}
 
 
 
 
 
 
-/*//Print the Sum of the n number
+//Print the Sum of the n number
 #include<iostream>
 using namespace std;
 int main(){
@@ -62,11 +63,11 @@ int main(){
 
    
 return 0;
-}*/
+}
 
 
 
-/*//Print the sum of the even NO
+//Print the sum of the even NO
 #include<iostream>
 using namespace std;
 int main(){
@@ -85,12 +86,12 @@ int main(){
 
    
 return 0;
-}*/
+}
 
 
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
     int n;
@@ -109,7 +110,10 @@ int main(){
         
     }   
 return 0;
-}*/
+}
+
+
+//
 
 
 

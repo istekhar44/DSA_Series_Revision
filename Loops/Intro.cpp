@@ -15,7 +15,7 @@ int main(){
  cout << g << endl;
 
 
-   //Relational Operator
+ //Relational Operator
  // = Equal to
  // > greater than 
  // < Less than 
@@ -35,6 +35,8 @@ int main(){
 
   int h = 21;
   cout << !h << endl;
+
+  //Use the multiple opertion in the vla
 
 
 

@@ -1,4 +1,5 @@
-/*//Oerator in the cpp
+/*
+//Oerator in the cpp
 // &   (and) operator.   simple treat as a multipley operator 
 // |   (OR) operatir.   Simple treate as a addition operator 
 // ~   (NOT) oprator .  NOt operator It generally reverse the bit . 0 to 1
@@ -64,10 +65,14 @@ return 0;
 }*/
 
 
-/*#include<iostream>
+
+
+
+#include<iostream>
 using namespace std;
 int main(){
     //Write the Programe to Print the prime no
+
     int no;
     cout<<"Enter the value of the no "<<endl;
     cin>>no;
@@ -89,7 +94,11 @@ int main(){
         }
       
 return 0;
-}*/
+}
+
+
+
+
 
 
 #include <iostream>
