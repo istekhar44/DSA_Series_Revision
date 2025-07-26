@@ -101,6 +101,8 @@ return 0;
 
 
 
+
+
 /*//Calculate Sum of Digit of a number  = 3456
 #include<iostream>
 using namespace std;
@@ -130,10 +132,30 @@ return 0;
 //Find the sum of the nCr  
 #include<iostream>
 using namespace std;
-int fact 
-int main(){
+int factorial(int n){
+    int fact = 1;
+    for(int i=1; i<=n; i++){
+        fact*=i;
+    }
+    return fact;
 
-   
-return 0;
 }
 
+int ncr(int n , int r){
+    int fact_n = factorial(n);
+    int fact_r = factorial(r);
+    int fact_nmr = factorial(n-r);
+
+    return fact_n / (fact_r * fact_nmr);
+}
+int main(){
+    int n = 8 , r= 3;
+    cout<< ncr(n,r)<<endl;  //Use the concept of ncr
+    return 0;
+   
+}
+
+        //  HomeWork
+// Q1  wAP to check if the a number is prime or not 
+// Q2  WAP to print all prime number from 2 to N 
+// Q3  Wap to print the fabonacci series to n given num?        

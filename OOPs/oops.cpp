@@ -1,8 +1,6 @@
 /*#include <iostream>
 #include <string> // Required for using the string data type
-
 using namespace std;
-
 class Student {
 private:
     string Sname;
@@ -111,7 +109,7 @@ class Car{
         cout<<"Fortuner"<<endl;
 
     }
-    //Crate the paramerterised constructor 
+    //paramerterised constructor 
     Car(string newName , int  newPlateNo, int newEnrollYear){
         Brand = newName ;
         plateNo = newPlateNo;
