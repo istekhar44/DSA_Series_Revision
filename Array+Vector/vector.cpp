@@ -5,9 +5,28 @@
 //Supports many methods: push_back(), pop_back(), size(), clear(), etc.
 
     //   vector define => Vector<type> name ; 
+
+
+
+
+    /*| Function         | Description                                               |
+| ---------------- | --------------------------------------------------------- |
+| `push_back(val)` | Adds an element to the end of the vector                  |
+| `pop_back()`     | Removes the last element of the vector                    |
+| `size()`         | Returns the number of elements                            |
+| `capacity()`     | Returns the size of the storage space                     |
+| `empty()`        | Checks if the vector is empty                             |
+| `clear()`        | Removes all elements                                      |
+| `resize(n)`      | Resizes the vector to contain `n` elements                |
+| `at(index)`      | Access element at a specific position (with bounds check) |
+| `front()`        | Returns the first element                                 |
+| `back()`         | Returns the last element                                  |
+| `begin()`        | Returns iterator to the first element                     |
+| `end()`          | Returns iterator to the end (after the last element)      |
+*/
     
     
-/*#include<iostream>
+#include<iostream>
 #include<vector>
 using namespace std;
 int main(){
@@ -26,7 +45,14 @@ int main(){
 
     
  return 0;
-}*/
+}
+
+
+
+
+
+
+
 
 
 #include<iostream>
@@ -51,18 +77,22 @@ int main(){
     cube.push_back(12);  //Push the element in the vector
     cube.push_back(14);
     cube.push_back(18);
-    cout<<"sizeof "<<cube.size()<<endl;     //Print the vector using for each loop
+    cout<<"sizeof "<<cube.size()<<endl;     //Print the vector using for each loop  
+    cube.pop_back();    //DElete the element from the back
     for(char value : cube){
        cout<<value<<endl; 
     }
 
 
+    //Exor of the two number give the zero  eg1=> 2^2= 0    eg2=> n^0 = n
 
-
-
- 
-
-
+    /*// logic to find the unique no in the array
+    int ans = 0;
+    int nums;
+    for(int value : nums){
+        ans = ans ^ nums;
+    }
+    return ans;*/
 
   
    
