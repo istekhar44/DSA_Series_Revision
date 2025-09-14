@@ -157,5 +157,18 @@ int main(){
 
         //  HomeWork
 // Q1  wAP to check if the a number is prime or not 
+#include <iostream>
+using namespace std;
+int isPrime(int num){
+    if(num % 1 == 0 ){
+        cout<< ("this is prime ");
+    }
+    else{
+
+    }
+}
+int main(){
+
+}
 // Q2  WAP to print all prime number from 2 to N 
 // Q3  Wap to print the fabonacci series to n given num?        

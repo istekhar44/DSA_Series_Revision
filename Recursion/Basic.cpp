@@ -11,7 +11,7 @@ using namespace std;
 int factorial(int n ){
 
     
-    if(n == 0 )    ////Base Case
+    if(n == 0 || n == 1 )    ////Base Case
 return 1;
 
 int choti = factorial(n - 1);     //recursive 
@@ -54,8 +54,6 @@ cout<<ans<<endl;
    
 return 0;
 }*/
-
-
 
 
 
