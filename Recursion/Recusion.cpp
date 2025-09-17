@@ -57,26 +57,26 @@ return 0;
 }*/
 
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-int printFabonnacci(int n) {
-    if (n == 0)
-        return 0;
-    if (n == 1)
-        return 1;
+// int printFabonnacci(int n) {
+//     if (n == 0)
+//         return 0;
+//     if (n == 1)
+//         return 1;
 
-    return printFabonnacci(n - 1) + printFabonnacci(n - 2);
-}
+//     return printFabonnacci(n - 1) + printFabonnacci(n - 2);
+// }
 
-int main() {
-    int n;
-    cin >> n;
+// int main() {
+//     int n;
+//     cin >> n;
 
-    cout << printFabonnacci(n) << endl;
+//     cout << printFabonnacci(n) << endl;
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
@@ -192,11 +192,71 @@ int main(){
 */
 
 
+// //check it is palindrome 
+// #include<iostream>
+// using namespace std;
+// bool checkPalindrome(string str ,int i, int j){
+//     if(i > j){
+//          return 0;
+//     }
+       
 
-//Liner Search find the key element from the array 
+//         if(str[i] != str[j]){
+//             return false;
+//         }
+//         else{
+//             return checkPalindrome( str , i+1 , j-1);
+//         }
+
+// }
+// int main(){
+//     string name = "abbccbba";
+//     cout<<endl;
+
+//     bool ispalindrome = checkPalindrome(name , 0 , name.length()-1);
+
+//     if(ispalindrome){
+//         cout<<"It is Palindrome"<<endl;
+//     }
+//     else{
+//         cout<<"It is not Palindrome"<<endl;
+//         }
+// return 0;
+// }
+
+
+
+
+
+
+
+
+//Find the bubble short
 #include<iostream>
 using namespace std;
-int main(){
-    
+void shortArry(int *array , int size){
+    if(size == 0 || size == 1){
+        return ;
 
+    }
+    for(int i = 0 ; i< size-1 ; i++){
+        if(array[i] > array[i+1]){
+            swap(array[i] , array[i+1]);
+        }
+
+    }
+    shortArry(array , size-1);
 }
+int main(){
+    int arrary[5] = {20,3,34,5,9};
+    shortArry(arrary,5);
+
+      
+}
+
+
+
+
+//Merge Short
+#include<iostream>
+using namespace std;
