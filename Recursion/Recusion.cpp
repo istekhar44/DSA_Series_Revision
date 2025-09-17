@@ -194,5 +194,9 @@ int main(){
 
 
 //Liner Search find the key element from the array 
+#include<iostream>
+using namespace std;
+int main(){
+    
 
-
+}
