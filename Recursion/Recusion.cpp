@@ -231,32 +231,177 @@ int main(){
 
 
 
-//Find the bubble short
-#include<iostream>
-using namespace std;
-void shortArry(int *array , int size){
-    if(size == 0 || size == 1){
-        return ;
+// //Find the bubble short
+// #include<iostream>
+// using namespace std;
+// void shortArry(int *array , int size){
+//     if(size == 0 || size == 1){
+//         return ;
 
-    }
-    for(int i = 0 ; i< size-1 ; i++){
-        if(array[i] > array[i+1]){
-            swap(array[i] , array[i+1]);
-        }
+//     }
+//     for(int i = 0 ; i< size-1 ; i++){
+//         if(array[i] > array[i+1]){
+//             swap(array[i] , array[i+1]);
+//         }
 
-    }
-    shortArry(array , size-1);
-}
-int main(){
-    int arrary[5] = {20,3,34,5,9};
-    shortArry(arrary,5);
+//     }
+//     shortArry(array , size-1);
+// }
+// int main(){
+//     int arrary[5] = {20,3,34,5,9};
+//     shortArry(arrary,5);
+
+    
 
       
+// }
+
+
+
+
+// //Merge Short
+// #include<iostream>
+// using namespace std;
+// void merge(int *array, int s , int e ){
+//     int mid = (s+e)/2;
+//     int len1 = mid - s + 1;
+//     int len2 = e - mid ;
+
+//     int *first = new int[len1];
+//     int *second = new int[len2];
+
+//     //Copy the values 1 split array
+//     int k = s;
+//     for(int i=0 ; i< len1 ; i++){
+//         first[i] = array[k+1];
+//     }
+
+//     //Copy the value 2 split array
+//     int k = mid+1;
+//     for(int i = 0 ; i < len2 ; i++){
+//         first[i] = array[k++];
+
+//     }
+
+//     //merge 2 shorted Array 
+//     int index1 = 0 ;
+//     int index2 = 0 ;
+
+//     mainArrayIndex = s;
+//     while(index1 < len1 && index2 < len2){
+//         if(first[index1] < second[index2]){
+//             array[mainArrayIndex++] = first[index1++];
+//         }
+//         else{
+//             array [mainArrayIndex] = second[index2++];
+//         }
+//     }
+
+// }
+// void mergeShort(int *array, int s , int e){
+//     if( s > e){
+//         return;
+//     }
+//     int mid = (s+e)/2;
+
+//     //Short the left part of the array 
+//     mergeShort(array , s , mid);
+
+//     //short the right part of the array
+//     mergeShort(array , mid+1 , e);
+
+// }
+// int main(){
+//     int array[7]={3,6,7,21,65,32,4};
+//     int size = 7;
+
+//     mergeShort(array , s , e);
+
+
+
+// }
+
+
+
+                           //Day 6 love babbar
+
+
+//Quick Short find the solution 
+// #include <iostream>
+// using namespace std;
+
+// int partision(int arr[], int s , int e ){
+//     int pivort = arr[s];
+
+//     int cnt = 0;
+//     for (int i = s+ 1 ,)
+// }
+// void quickShort( int arr[], int s , int e){
+//     if(s > e ){
+//         return ;
+
+//     }
+//     //Calling the partion function
+//     int p = partision( arr , s, e);
+
+//     //left part short kero 
+//     quickShort(arr , s , p-1);
+
+//     //right wala part shorr kero
+//     quickShort(arr, p + 1 , e);
+// }
+// int main(){  
+    
+//     int arr[9]={4,6,8,12,45,80,90,34,45};
+//     int  n = 9;
+
+//     quickShort(arr, 0 , n-1);
+//     for(int i = 0 ; i<n ; n-1){
+//         cout<< arr[i]<< " ";
+//     }
+//     cout<<endl;
+
+//     return 0;
+
+
+// }
+
+
+
+
+//Subset of the array
+#include<iostream>
+using namespace std;
+int main(){
+     
+    
 }
 
 
 
 
-//Merge Short
-#include<iostream>
-using namespace std;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

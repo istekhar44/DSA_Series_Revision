@@ -9,15 +9,13 @@
 /*#include<iostream>
 using namespace std;
 int factorial(int n ){
-
-    
+   
     if(n == 0 || n == 1 )    ////Base Case
 return 1;
 
 int choti = factorial(n - 1);     //recursive 
 int badi = n * choti;             //recursive relation
 }
-
 
 int main(){
     int n;
@@ -30,6 +28,19 @@ int main(){
    
 return 0;
 }*/
+
+// #include <iostream>
+// using namespace std;
+// int factorial(int n ){
+//     if(n== 0 || n == 1){
+//         return 1;
+//     }
+    
+//     int ans  = n*factorial(n);
+// }
+// int main(){
+
+// }
 
 
 
@@ -57,6 +68,31 @@ return 0;
 
 
 
+//Calculate the power of the 2 n
+// #include <iostream>
+// using namespace std;
+// int power(int n ){
+//     if(n == 0){
+//         return 1;
+
+//     }
+//     return 2 *power(n-1); //1 way to solve the probem 
+
+//     int ans = power(n -1);//2 way to solve the problem 
+//     int larger = 2 * ans; 
+// }
+// int main(){
+//     int n ;
+//     cin >> n;
+//     int ans =  power(n);
+//     cout<< ans <<endl;
+//     return 0 ;
+
+// }
+
+
+
+
 
 /*//Print the Back counting
 #include <iostream>
@@ -79,6 +115,24 @@ int main(){
 
 
 }*/
+
+//Printing the back counting 
+#include <iostream>
+using namespace std;
+void printCounting(int n ){
+    if (n == 0 ){
+        return;
+    }
+    cout<<n <<endl;
+    print( n - 1);
+    cout<<n<<endl;//This print The strainght counting 
+    cout<<n << endl;
+   
+}
+
+int main(){
+
+}
 
 
 
@@ -135,6 +189,20 @@ int main(){
 // }
 
 
+// #include <iostream>
+// using namespace std ;
+// void reachHome(int src , int dest){
+//     if (src == dest ){   //Base case
+//         cout<<"Pouch Gaya "<<endl;
+//     }
+//     src ++;
+//     reachHome(src , dest );
+// }
+// int main (){
+
+// }
+
+
 
 // //Write the code of the binary search
 // #include <iostream>
@@ -161,6 +229,19 @@ int main(){
 
 
 
+// #include <iostream>
+// using namespace std;
+// bool isShorted(int *array, int size ){
+//     if ( size == 0 || size == 1){
+//         return true ;
+//     }
+//     if ( arr[0] > arr[1]){
+//         return false;
+//     }else{
+//         bool remaining= isShorted(arr + 1 , size - 1);
+//         return remaining;
+//     }
+// }
 
 
 
@@ -194,6 +275,25 @@ int main(){
 
    
 }*/
+
+
+
+
+/*//Calculate the sum of the number 
+#include <iostream>
+using namespace std;
+int calculateSum(int n){
+    if ( n = 0  || n == 1){
+        return ;
+    }
+    int smallerProblem = calculateSum(n - 1);
+    int largeProblem = n + smallerProblem;
+}
+int main(){
+
+}*/
+
+
 
 
 
@@ -239,6 +339,9 @@ int main (){
 
 
 
+
+
+
 //A String is give trverse the string
 /*#include<iostream>
 #include<string>
@@ -259,7 +362,25 @@ return 0;
 
 
 
-/*// //write program to reverse the stirg using the recusion
+/*//Write the program to reverse the string 
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+using namespace std ;
+int main(){
+    string hellow = "helllow";
+    reverse(hellow.begin(), hellow.end());
+    cout<<hellow<<endl;
+
+}*/
+
+
+
+
+
+
+/* write program to reverse the stirg using the recusion
 #include<iostream>
 using namespace std;
 void reverse(int i , int j , string& str){
@@ -318,14 +439,8 @@ int main(){
 
 
 //WAP to check it is palindrome 
-#include<iostream>
-using namespace std; 
-bool checkPalindrome(string str , int i , int j ){
-    if(i> j)
-    return ;
-    swap(str[i],str[j])``                       sdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfg
-    i++;
-    j--;
-
-    reverse(str,i,j); 
+#include <iostream>
+using namespace std;
+int main(){
+     
 }

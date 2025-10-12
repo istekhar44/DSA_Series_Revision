@@ -15,6 +15,10 @@ int main(){
  cout << g << endl;
 
 
+
+ 
+
+
  //Relational Operator
  // = Equal to
  // > greater than 
@@ -30,7 +34,7 @@ int main(){
 
 
   //   && <- This is the (And ) operator use the multiple condition is necssary to true 
-  //   ||  <-  This is the (OR )  if one condition is true or  -> Ya fir
+  //   ||  <-  This is the (OR )  if any one condition is true or  -> Ya fir
   //   !a    <- make the true to false 
 
   int h = 21;

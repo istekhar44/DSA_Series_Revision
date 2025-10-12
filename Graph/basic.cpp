@@ -1,7 +1,7 @@
-//WAP to Reverse the Stirng?
+//Graph is the collection of node and 
 #include<iostream>
 using namespace std;
 int main(){
     
-    return 0;
+
 }

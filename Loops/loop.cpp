@@ -25,6 +25,8 @@ int main(){
 
 
 
+
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -39,6 +41,21 @@ int main(){
 
 return 0;
 }
+
+
+
+/*#include <iostream>
+using namespace std;
+int main(){
+    //Print the counting 
+    int n ;
+    cin>> n;
+    int i = 0;
+    while ( i = n ){
+        cout<<i <<endl;
+        i +=  1;
+    }
+}*/
 
 
 
@@ -65,6 +82,20 @@ int main(){
 return 0;
 }
 
+// //Print the sum of the number 
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n ;
+//     cin>>n;
+//     int i = 1;
+//     int sum = 0;
+//     while ( i < n){
+//         sum = sum + 1;
+//         i +=1;
+//     }
+// }
+
 
 
 //Print the sum of the even NO
@@ -81,13 +112,9 @@ int main(){
         i = i+2;
     }
 
-    cout<<sum<<endl;
-
-
-   
+    cout<<sum<<endl;   
 return 0;
 }
-
 
 
 
@@ -113,7 +140,7 @@ return 0;
 }
 
 
-//
+/
 
 
 
