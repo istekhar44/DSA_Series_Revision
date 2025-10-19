@@ -1,1 +1,1 @@
-*ptr2 = *ptr2 + 1; 
+// *ptr2 = *ptr2 + 1;   to sum the pointer vlaue 

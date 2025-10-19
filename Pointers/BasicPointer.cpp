@@ -54,7 +54,7 @@ int main(){
     cout<< "Print the 1 location element"<<*arr+1 <<endl;  //print the value of the 1 location
     cout<<"print the 2 locaction element "<<*arr+2<<endl; //print the 3 loacation element
 
-    cout<<"print the address of the array"<<arr<<endl;  
+    cout<<"print the address of the array"<<arr<<endl;  //print the first location of the array
     cout<<"print the address of the array"<<&arr<<endl;  
 
     cout<<*(arr+2)<<endl; //return the value of the array 3 location
@@ -83,7 +83,7 @@ int main(){
     char ch[5] = "abcd";
 
     cout<<array<<endl;  //return the address
-    cout<<ch<<endl;    //return the value 
+    cout<<ch<<endl;    //return the value 1 value 
 
     cout<<*ch<<endl;  //print the 1 value of the character array
     cout<<&ch<<endl;  //return the address of the character array

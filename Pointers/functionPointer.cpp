@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 void print (int *p){
     cout<<*p<<endl;
@@ -34,13 +34,13 @@ int main(){
     int array[19] ={1,2,3,4,5,6};
 
 
-} */
+} 
 
 
 
 
 
-/*//create the double pointer 
+//create the double pointer 
 #include <iostream>
 using namespace std;
 void update (int **ptr2){
@@ -77,11 +77,11 @@ int main(){
     update(ptr2);
 
 
-}*/
+}
 
 
 
-//Multiple choice question
+
 
 
 
