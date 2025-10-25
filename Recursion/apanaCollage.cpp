@@ -13,13 +13,30 @@ int fib(int n){
     
 
 }
-int main(){
+int main(){ 
     int n ;
     cin>>n;
     int ans = fib(n);
     cout<<ans<<endl;  
 return 0;
 }*/
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int fab(int n){
+    if(n == 0 || n == 1){
+        return n;
+
+    }
+    int small = fab
+}
+int main(){
+
+}
 
 
 //Write the programe to check the array is shorted
