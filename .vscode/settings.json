@@ -66,5 +66,6 @@
     "functional": "cpp",
     "tuple": "cpp",
     "type_traits": "cpp"
-  }
+  },
+  "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
