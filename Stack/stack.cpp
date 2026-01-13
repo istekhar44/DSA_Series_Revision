@@ -1,10 +1,15 @@
-//Implemementaion of the stack using the array/Vector 
+//Implemementaion of the stack using the array/Vector/linklist 
 //Because the vector is the dynamic implementaion no limit on the data 
+//what is the stack =>  it is the last in first out 
+
+
+//implementation of the stack using the vector
 #include <iostream>
 #include <vector>
 using namespace std;
 class stack{
-  vector<int> v;
+
+  vector<int> v;   
   
   public:
 
@@ -43,6 +48,9 @@ int main(){
 
 }
 
+
+
+
 //Implementaion of the stack using the array
 #include <iostream>
 #include <vector>
@@ -69,7 +77,29 @@ class stack{
 
 };
 int main(){
+  stack st;
+  st.push(34);
 
+
+}
+
+
+//implementtation of the stack using the vector
+#include<iostream>
+#include<vector>
+using namespace std;
+class stack{
+  public:
+  void push(int value){
+    pus  
+  }
+
+};
+
+int main(){
+
+   
+return 0;
 }
  
 

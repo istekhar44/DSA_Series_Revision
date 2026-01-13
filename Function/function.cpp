@@ -102,8 +102,7 @@ return 0;
 
 
 
-
-/*//Calculate Sum of Digit of a number  = 3456
+//Calculate Sum of Digit of a number  = 3456
 #include<iostream>
 using namespace std;
 int SumofDigit(int num){
@@ -123,7 +122,7 @@ int main(){
     cout<<"Hellow"<<endl;
    
 return 0;
-}*/
+}
 
 
 
@@ -155,7 +154,9 @@ int main(){
    
 }
 
-        //  HomeWork
+
+
+//  HomeWork
 // Q1  wAP to check if the a number is prime or not 
 #include <iostream>
 using namespace std;
@@ -171,4 +172,30 @@ int main(){
 
 }
 // Q2  WAP to print all prime number from 2 to N 
-// Q3  Wap to print the fabonacci series to n given num?        
+#include<iostream>
+using namespace std;
+int primeNO(int num ){
+    for(int i = 0 ; i <= num ; i++){
+        if(num % 2 == 0 && num % num == 0){
+            int print(){
+
+            }
+
+        }
+    }
+
+}
+
+int main(){
+
+}
+// Q3  Wap to print the fabonacci series to n given num?   
+#include <iostream>
+using namespace std;
+int fib(int n){
+    
+
+}
+int main(){
+
+}     

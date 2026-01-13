@@ -44,7 +44,7 @@ return 0;
 
 
 
-/*//calculate the power of the function 
+//calculate the power of the function 
 #include<iostream>
 using namespace std;
 int power(int n){
@@ -64,7 +64,7 @@ int ans = power(n);
 cout<<ans<<endl;
    
 return 0;
-}*/
+}
 
 
 
@@ -72,7 +72,7 @@ return 0;
 // #include <iostream>
 // using namespace std;
 // int power(int n ){
-//     if(n == 0){
+//     if(n == 0){  //base case
 //         return 1;
 
 //     }
@@ -115,6 +115,8 @@ int main(){
 
 
 }*/
+
+
 
 //Printing the back counting 
 #include <iostream>
@@ -438,9 +440,4 @@ int main(){
 
 
 
-//WAP to check it is palindrome 
-#include <iostream>
-using namespace std;
-int main(){
-     
-}
+//wap the 
