@@ -58,3 +58,31 @@ int main(){
 return 0;
 }
 
+
+
+
+// check the Number is given is Armstrong or not
+class Solution {
+  public:
+    bool armstrongNumber(int n) {
+        int SUM = 0;
+        int copyN = n;
+        while(n !=0){
+            int digit = n % 10;
+            SUM += (digit * digit * digit);
+            
+            n = n/10;
+        }
+        return SUM == copyN;  //check the copy num and the sum are the exactly same
+    }
+};
+//if any number is the armstrong the copy of the num of cube is same to the number
+
+
+
+
+
+
+
+
+

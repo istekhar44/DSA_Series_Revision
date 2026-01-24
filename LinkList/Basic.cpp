@@ -67,7 +67,7 @@ class List{
         }
         else {
 
-            Node * tail = 
+            Node * tail ;
         }
     }
 

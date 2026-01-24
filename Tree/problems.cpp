@@ -72,6 +72,15 @@ public:
 
 
 
+//check the tree is identical or not 
+class Solution {
+    if(root )
+    public:
+
+}
+
+
+
 
 //calcualte the diameter of the tree
 /**
@@ -121,7 +130,6 @@ public:
 };
 
 
-//
 
 
 
