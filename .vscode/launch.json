@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Dell/Desktop/Dsa_Series_Revision/Array+Vector",
-      "program": "c:/Users/Dell/Desktop/Dsa_Series_Revision/Array+Vector/build/Debug/outDebug",
+      "cwd": "c:/Users/Dell/Desktop/Dsa_Series_Revision/Matrix",
+      "program": "c:/Users/Dell/Desktop/Dsa_Series_Revision/Matrix/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
