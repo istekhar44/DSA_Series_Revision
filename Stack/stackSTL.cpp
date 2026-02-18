@@ -112,7 +112,7 @@ class{
   list<int>ll;
   public:
   int main(){
-    int value o index vauer of d
+    int value //index vauer of d
   }
     
 

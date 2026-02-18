@@ -1,91 +1,123 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 class Node {
     public:
     int data ;
-    Node * next;
+    Node * next ;
 
-    Node(int value ){
+     Node(int value){
         data = value;
         next = NULL;
-
     }
 };
 class List{
+    public:
     Node * head ;
-    Node * tail ;
+    Node * tail;
 
-    List(){
-        head = tail = NULL;
-    }
+ List(){
+    head= tail = NULL;
+ }
 
-    void push_front(int value ){  //Push the value in the front of the linklist 
+     //Push the front of the Node 
+     void pushFront( int value ){
         Node * newNode = new Node(value);
         if(head == NULL){
             head = tail = NULL;
+    
+        }else{
+            Node * newNode = head;
+            head = newNode;
         }
-        else{
-            Node * newNode = head ;
-            head = newNode ;
-        }
-    }
+    }    
 
-    void push_back(int value){  //Push the value in the back of the linklist 
+    //Push back in the linklist 
+    void pushBack(int value){
         Node * newNode = new Node(value);
-        if(tail == NULL){
+        if( tail == NULL){
             head = tail = newNode;
-        }
-        else{
-            Node * tail = newNode ;
+        }else{
+            Node * tail= newNode ;
             tail = newNode;
+    
         }
     }
 
 
+    //Print the linkList 
+    void printLL(){
+        Node * temp = head ;
+        while(temp != NULL){
+            cout<<temp->data<<" ";
+            temp= temp -> next ;
+        }
+        cout<<endl;
+    }
 
-    void pop_front(){   //Delete the value front of the  linklist 
+
+   //popFront of the linklist 
+   void popFront(){
+       if(head == NULL){
+           cout<<"linklist is empty";
+       }
+   
+       Node * temp = head ;
+       temp -> next = NULL;
+   
+       head = head -> next ;
+       delete temp;
+    }
+
+
+    void popBack(){
         if(head == NULL){
-            cout<<"Linklist is empty"<<endl;
+            cout<<"LinkList is Empty";
             return ;
         }
 
-        Node * temp = head ;  //Phala head ko temp ma store ker do  
-        temp ->next = NULL;    //1st node ka next ko NULL bana do
+        Node *temp = head ;
+        while ( temp -> next != NULL){
+            temp -> next = temp;
+        }
+        temp -> next = NULL;
+        delete tail;
+        tail = temp;
+    }
 
-        head = head  -> next;   //1 node ka next ko null bna dia
-        delete temp;
+
+    //Insert the value in the LinkList 
+    void insertValue(int value, int &  position){
+        Node * newNode = new Node(value);
+
+        if( position < 0 ) {   //Less than the zero (Simple Return )
+            cout<<"Invalid Positon is Given "<<endl;
+            return ;
+
+        } 
+        if(position = 0 ){  //this is the case of push front 
+
+        } 
+        
+        Node * temp = head ;
+        for(int i = 0 ; i <= position ; i++){
+            temp = temp -> next;
+
+        }
+        Node * newNode  = temp ->next ;
+        temp -> next = new Node ;
 
     }
 
 
-    
 
-    void pop_back(){   //delete the element from the last of the linklist 
-        if(tail == NULL){
-            cout<<"LinkList is Empty"<<endl;
-            return ;
-        }
-        else {
 
-            Node * tail ;
-        }
+    //Insert the Node in the given position
+    void pushPosition(int value, int pos){
+        if()
     }
 
 
-
-
-
-};
-int main(){
-
 }
-
-
-
-//Write the linklist code 
-#include <iostream>
-using namespace std;
 int main(){
-    
+return 0;
 }
-
