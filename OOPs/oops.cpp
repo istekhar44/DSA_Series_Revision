@@ -25,13 +25,6 @@ class teacher{
 
     private:
     double salary;
-
-
-    
-
-
-
-
 };
 
 int main(){
@@ -41,12 +34,6 @@ int main(){
 
     t1.setSalary(25000);
     cout<<t1.getSalary()<<endl;
-    
-
-   
-   
-    
-
 return 0;
 
 }

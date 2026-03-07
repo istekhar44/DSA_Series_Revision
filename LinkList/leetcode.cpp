@@ -49,8 +49,8 @@ class List {
 
     //Question = there is given a linklist which is the cycle linklist return the vlaue at which the cycle is form 
     void return_value_at_which_cycle(){
-        List * fast = head  ;
-        List * slow = head  ;
+        List * fast = head;
+        List * slow = head;
 
         bool isCycle = false ;
 

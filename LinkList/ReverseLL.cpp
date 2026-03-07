@@ -69,7 +69,7 @@ int main(){
      
     
 
-}*/
+}
 
 
 #include <iostream>
@@ -217,6 +217,18 @@ int main(){
     ll.pop_front(67);
     return 0;
 
+} */
+
+
+
+                    /*Revision of the LinkList Problems*/ 
+
+
+                    
+#include<iostream>
+using namespace std;
+int main(){
+return 0;
 }
 
 

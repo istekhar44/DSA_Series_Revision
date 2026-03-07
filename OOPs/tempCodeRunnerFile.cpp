@@ -1,1 +1,0 @@
-cout<<"Call the Setter function "<<karan.setName()<<endl;

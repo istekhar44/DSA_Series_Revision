@@ -85,39 +85,52 @@ class List{
     }
 
 
-    //Insert the value in the LinkList 
-    void insertValue(int value, int &  position){
-        Node * newNode = new Node(value);
-
-        if( position < 0 ) {   //Less than the zero (Simple Return )
-            cout<<"Invalid Positon is Given "<<endl;
-            return ;
-
-        } 
-        if(position = 0 ){  //this is the case of push front 
-
-        } 
-        
-        Node * temp = head ;
-        for(int i = 0 ; i <= position ; i++){
-            temp = temp -> next;
-
+    // Insert node at given position
+    void pushPosition(int value, int pos) {
+        if (pos < 0) {
+            cout << "Invalid position" << endl;
+            return;
         }
-        Node * newNode  = temp ->next ;
-        temp -> next = new Node ;
-
+    
+        // If inserting at beginning
+        if (pos == 0) {
+            pushFront(value);
+            return;
+        }
+    
+        Node* temp = head;   // Start from head
+    
+        // Traverse to (pos-1)th node
+        for (int i = 0; i < pos - 1; i++) {
+    
+            if (temp == NULL) {   // Position greater than length
+                cout << "Position out of range" << endl;
+                return;
+            }
+    
+            temp = temp->next;
+        }
+    
+        // If temp becomes NULL
+        if (temp == NULL) {
+            cout << "Position out of range" << endl;
+            return;
+        }
+    
+        Node* newNode = new Node(value);
+        newNode->next = temp->next;  //connection of newnode and temp
+        temp->next = newNode;
     }
 
 
-
-
-    //Insert the Node in the given position
-    void pushPosition(int value, int pos){
-        if()
+    //Search in the LinkList 
+    void SearchLL(int key){
+        int idx = 0;
+        
     }
 
 
-}
+};
 int main(){
 return 0;
 }
